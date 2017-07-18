@@ -24,7 +24,18 @@ public class Excecao {
         }     
     }
     
-    public void propagaChecada() throws Exception{
+    public void propagaChecada() throws ChecadaException{
         lancaChecada();
+    }
+    
+    public void trataChecada(){
+        
+        try {
+            propagaChecada();
+        } catch (ChecadaException ex) {
+            System.out.println("Exceção capturada");
+        } finally{
+            System.out.println("Tratamento de exceção");
+        }
     }
 }
