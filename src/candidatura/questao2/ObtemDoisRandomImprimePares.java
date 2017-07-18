@@ -1,17 +1,16 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package candidatura.questao2;
 
 /**
  *
  * @author Mauro
+ * 
+ * Obtem dois aleatórios R e S
+ * Imprime todos os pares entre 1 e S
+ * Se algum divisor do dobro de R for encontrado, encerra a execução
  */
 public class ObtemDoisRandomImprimePares {
     public static void main(String[] args) {
-        int R = (int) (Math.random()*100);
+        int R = (int) (Math.random()*10);
         int S = (int) (Math.random()*100);
         
         System.out.println("Valor de S: "+S);

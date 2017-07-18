@@ -10,8 +10,8 @@ package candidatura.questao3;
 public class ObtemDoisRandomImprimeSomaDosDivisores {
     public static void main(String[] args) {
         
-        int R = (int) (Math.random()*100);
-        int S = (int) (Math.random()*100);
+        int R = (int) (Math.random()*10);
+        int S = (int) (Math.random()*1000);
         
         System.out.println("Valor de S: "+S);
         System.out.println("Valor de R: "+R);

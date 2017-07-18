@@ -1,5 +1,7 @@
 package candidatura.questao1;
 
+import java.util.Random;
+
 /**
  *
  * @author Mauro
@@ -12,7 +14,8 @@ public class ObtemRandomImprimePares {
     public static void main(String[] args) {
         
         int R = (int) (Math.random()*100);
-    
+        
+        
         System.out.println("o número sorteado foi: "+R);
         
         for (int i = 1; i < R; i++) {
