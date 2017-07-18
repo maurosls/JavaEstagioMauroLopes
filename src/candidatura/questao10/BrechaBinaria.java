@@ -4,6 +4,7 @@ package candidatura.questao10;
 /**
  *
  * @author Mauro
+ * 
  */
 public class BrechaBinaria {
     

@@ -4,6 +4,8 @@ package candidatura.questao10;
 /**
  *
  * @author Mauro
+ * 
+ * classe main para testar o funcionamento da BrechaBinaria
  */
 public class Principal {
     public static void main(String[] args) {
